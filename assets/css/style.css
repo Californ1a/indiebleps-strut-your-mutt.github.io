@@ -1,0 +1,205 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+/*.header {
+  border-bottom: 1px solid #e5e5e5;
+}*/
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  /*padding-top: 19px;*/
+  color: #777;
+  /*border-top: 1px solid #e5e5e5;*/
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {28px1
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+  border: 2px solid green;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 10px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+h1 {
+	font-size: 140px !important;
+	color: #fff !important;
+}
+
+.jumbotron {
+	background-color: #141414 !important;
+}
+
+.result {
+  margin-top: 15px;
+}
+
+.headimg {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.head {
+	text-align: center;
+}
+
+#countbox,#countbox2 {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+#countbox2 {
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*#countbox a {
+	text-align: center;
+	border: none;
+    padding: 10px 32px;
+	color: white;
+	background-color: #555;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+#countbox a:hover {
+	text-align: center;
+	border: none;
+    padding: 10px 32px;
+	color: white;
+	background-color: #555;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}*/
+
+#countbox a {
+    background-color: #9f0000;
+    border: 2px solid maroon;
+	border-radius: 10px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#countbox a:hover {
+	background-color: #d00;
+}
+#countbox2 a {
+    background-color: #555;
+    border: 2px solid grey;
+	border-radius: 10px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#countbox2 a:hover {
+	background-color: #444;
+}
+
+#watch {
+	display: inline-block;
+}
+
+#watch a {
+    background-color: #9f0000;
+    border: none;
+	border-radius: 10px;
+    color: white;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#watch a:hover {
+	background-color: #d00;
+}
+
+#donation-amount {
+	display: inline;
+}
+
+@media screen and (min-width: 768px) {
+    .container .jumbotron {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
