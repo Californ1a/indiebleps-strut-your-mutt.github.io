@@ -8,7 +8,7 @@ $(document).ready(function() {
 			let reg = /<p><span class="left">\$(\d+\.\d+)<\/span>/g;
 			let val = reg.exec(data)[1];
 
-			if (donationTotal != val) {
+			if (donationTotal != val && val > donationTotal) {
 				$('#donation-total').numerator({
 					duration: 2000,
 					rounding: 2,
